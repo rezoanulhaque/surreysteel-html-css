@@ -21,7 +21,6 @@ header{
 }
 .menu img{
     width: 50px;
-	float: left;
 }
 .logo{
     width: 33.33%;
@@ -29,7 +28,6 @@ header{
 }
 .logo img{
     width: 250px;
-	float: left;
 }
 .phone{
     width: 12%;
@@ -76,7 +74,7 @@ header{
 	float: left;
 	margin-top: 20px;
 	color: #FFF;
-	margin-left: 40px;;
+	margin-left: 40px;
 }
 .link-phone span{
     color: white;

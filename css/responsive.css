@@ -1,0 +1,47 @@
+@media all and (max-width : 400px){
+
+	.mid{
+		width: 97%;
+	}
+    .phone {
+        width: 4%;    
+    }
+    .phone span {
+        display: none;
+    } 
+    .logo img{
+        width: 150px;
+    }
+    .header-bottom-left{
+        width: 100%;
+        float: none;
+    }
+    .header-bottom-right{
+        width: 100%;
+        float: none;
+    }
+    .link-button{ 
+        width: 30%;
+        float: left;
+    }
+    .link-phone{ 
+        width: 40%;
+        float: left;
+        margin-top: 20px;
+        color: #FFF;
+        margin-left: 100px;;
+    }
+    .service-name-left{
+        width: 100%;
+        float: none;
+    }
+    .service-name-right{
+        width: 100%;
+        float: none;
+    }
+    .service-name-right img{
+        margin-top: 40px;
+    }
+
+
+}
