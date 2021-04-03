@@ -42,6 +42,102 @@
     .service-name-right img{
         margin-top: 40px;
     }
-
-
+    .service-bottom-left{
+        width: 100%;
+        float: none;
+    }
+    .service-bottom-right{
+        width: 100%;
+        float: none;
+    }
+    .service-bottom-left img{
+        width: 100%;
+    }
+    .service{
+        padding: 10px;
+    }
+    .service-bottom-right p{
+        padding-bottom: 40px;
+    }
+    .products h1{
+        margin: 25px 0px;
+    }
+    .box{
+        width: 100%;
+    }
+    .profile {
+        padding: 10px;
+    }
+    .profile-left{
+        width: 100%;
+        float: none;
+    }
+    .profile-right{
+        width: 100%;
+        float: none;
+    }
+    .profile-left h2{
+        font-size: 35px;
+    }
+    .profile-flex-container {
+        width: 100%;
+    }
+    .john-doe-name{
+        width: 50%;
+        margin-left: 20px;
+    }
+    .contact-left{
+        width: 100%;
+        float: none;
+    }
+    .contact-right{
+        width: 100%;
+        float: none;
+    }
+    .contact-phone{
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+    .contact-email{
+        width: 100%;
+        float: none;  
+        box-sizing: border-box;
+    }
+    .upper-contact{
+        width: 100%;
+        display: block;
+    }
+    .footer-top{  
+        padding: 40px;
+    }
+    .footer-top-logo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .footer-top-time{
+        width: 100%;
+        float: none;
+        text-align: center;  
+        display: inline-block;
+        padding: 30px 100px;
+    }
+    .footer-top-social{
+        width: 100%;
+        float: none; 
+        text-align: center;  
+    }
+    .footer-bottom-left{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .footer-bottom-right{
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 20px 0px;
+    }
 }

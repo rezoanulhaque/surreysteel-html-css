@@ -220,6 +220,7 @@ header{
 .products-button{
 	margin: 50px auto;
 	text-align: center;
+	font-weight: bold;
 }
 .products-button > a{
 	color: #031410;
