@@ -10,6 +10,7 @@ header{
 }
 .header-top{
 	padding: 10px 0px;
+	width: 100%;
 }
 .phone span{
     color: white;
