@@ -1,143 +1,140 @@
-@media all and (max-width : 400px){
+@media (max-width : 768px){
 
 	.mid{
-		width: 97%;
-	}
-    .phone {
-        width: 4%;    
+		width: 90%;
     }
+    /*..........header*/
     .phone span {
         display: none;
     } 
+    .menu img{
+        width: 120%;
+    }
     .logo img{
-        width: 150px;
+        width: 120%;
     }
-    .header-bottom-left{
-        width: 100%;
-        float: none;
-    }
-    .header-bottom-right{
-        width: 100%;
-        float: none;
-    }
-    .link-button{ 
-        width: 30%;
-        float: left;
+    .header-middle{
+        flex-direction: column;
     }
     .link-phone{ 
-        width: 40%;
-        float: left;
-        margin-top: 20px;
-        color: #FFF;
-        margin-left: 100px;;
+        margin: -.62rem 0rem 0rem 1.7rem;
     }
-    .service-name-left{
-        width: 100%;
-        float: none;
+     /*..........header*/
+
+     /*..........service*/
+    .service-top{
+        flex-direction: column;
     }
-    .service-name-right{
-        width: 100%;
-        float: none;
+    .service-top-left{
+        margin-bottom: 50px;
     }
-    .service-name-right img{
-        margin-top: 40px;
+    .service-top-right img{
+        margin-top: 0px;
     }
-    .service-bottom-left{
-        width: 100%;
-        float: none;
-    }
-    .service-bottom-right{
-        width: 100%;
-        float: none;
-    }
-    .service-bottom-left img{
-        width: 100%;
-    }
-    .service{
-        padding: 10px;
+    .service-bottom {
+        display: flex;
+        flex-direction: column;
     }
     .service-bottom-right p{
         padding-bottom: 40px;
     }
+    /*..........service*/
+
+    /*..........product*/
     .products h1{
         margin: 25px 0px;
     }
-    .box{
-        width: 100%;
-    }
+    /*..........product*/
+
+    /*..........profile*/
     .profile {
         padding: 10px;
-    }
-    .profile-left{
-        width: 100%;
-        float: none;
-    }
-    .profile-right{
-        width: 100%;
-        float: none;
     }
     .profile-left h2{
         font-size: 35px;
     }
-    .profile-flex-container {
-        width: 100%;
+    .profile-flex{
+        flex-direction: column;
     }
-    .john-doe-name{
-        width: 50%;
-        margin-left: 20px;
+    .john-doe-flex-container{
+        margin-top: 50px;
+        padding-bottom: 30px;
     }
-    .contact-left{
-        width: 100%;
-        float: none;
-    }
-    .contact-right{
-        width: 100%;
-        float: none;
-    }
-    .contact-phone{
-        width: 100%;
-        float: none;
-        box-sizing: border-box;
-    }
-    .contact-email{
-        width: 100%;
-        float: none;  
-        box-sizing: border-box;
+    /*..........profile*/
+
+    /*..........contact*/
+    .contact{
+        flex-direction: column;
     }
     .upper-contact{
-        width: 100%;
-        display: block;
+        flex-direction: column;
     }
+    .contact-phone{
+        border-radius: 5px 5px 0px 0px;
+    }
+    .contact-email{
+        border-radius: 0px 0px 0px 0px;
+    }
+    /*..........contact*/
+    
+    /*..........footer*/
     .footer-top{  
-        padding: 40px;
+        padding: 40px 0px;
+    }
+    .footer-top-flex{
+        flex-direction: column;
     }
     .footer-top-logo{
-        width: 100%;
-        float: none;
         text-align: center;
+        padding-bottom: 30px;
     }
-    
     .footer-top-time{
-        width: 100%;
-        float: none;
-        text-align: center;  
-        display: inline-block;
-        padding: 30px 100px;
+        margin: auto;
+        padding-bottom: 30px; 
+    }
+    .footer-top-time-img{
+        margin-right: 10px;
     }
     .footer-top-social{
-        width: 100%;
-        float: none; 
-        text-align: center;  
+        text-align: center;
+    }
+    .footer-bottom{
+        flex-direction: column;
     }
     .footer-bottom-left{
-        width: 100%;
-        float: none;
         text-align: center;
+        padding-bottom: 10px;
     }
     .footer-bottom-right{
-        width: 100%;
-        float: none;
         text-align: center;
-        padding: 20px 0px;
+    }
+}
+@media (max-width : 992px) {
+    .box{
+        flex: 45%;
+    }
+}
+@media (min-width : 992px) {
+    .footer-top-time-img{
+        flex: 10%;
+    }
+    .footer-top-time-text{
+        flex: 90%;	
+    }
+}
+@media (max-width : 600px) {
+    .box{
+        flex: 100%;
+    }
+    .profile-left h2{
+        font-size: 30px;
+    }
+    .footer-top-time-img{
+        margin-right: 5px;
+    }
+}
+@media (max-width : 800px) {
+    .footer-top-social img{
+        margin-right: 8px;
     }
 }
