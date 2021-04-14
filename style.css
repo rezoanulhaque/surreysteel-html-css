@@ -17,7 +17,6 @@ header{
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 10px 0px;
-	width: 100%;
 }
 .phone span{
     color: white;
