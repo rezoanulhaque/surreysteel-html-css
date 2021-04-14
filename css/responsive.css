@@ -1,5 +1,4 @@
-@media (max-width : 768px){
-
+@media only screen and(max-width : 768px){
 	.mid{
 		width: 90%;
     }
@@ -109,12 +108,12 @@
         text-align: center;
     }
 }
-@media (max-width : 992px) {
+@media only screen and(max-width : 992px) {
     .box{
         flex: 45%;
     }
 }
-@media (min-width : 992px) {
+@media only screen and(min-width : 992px) {
     .footer-top-time-img{
         flex: 10%;
     }
@@ -122,7 +121,7 @@
         flex: 90%;	
     }
 }
-@media (max-width : 600px) {
+@media only screen and(max-width : 600px) {
     .box{
         flex: 100%;
     }
@@ -133,7 +132,7 @@
         margin-right: 5px;
     }
 }
-@media (max-width : 800px) {
+@media only screen and(max-width : 800px) {
     .footer-top-social img{
         margin-right: 8px;
     }
