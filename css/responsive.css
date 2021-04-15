@@ -55,6 +55,7 @@
     .profile-flex{
         flex-direction: column;
     }
+    
     .john-doe-flex-container{
         margin-top: 50px;
         padding-bottom: 30px;
@@ -135,5 +136,8 @@
 @media (max-width : 800px) {
     .footer-top-social img{
         margin-right: 8px;
+    }
+    .profile-left-img-container img{
+        flex: 40%;
     }
 }
