@@ -11,6 +11,7 @@ body{
 /*..........header*/
 header{
     background-color:#031410;
+	position: relative;
 }
 .header-top{
 	display: flex;
@@ -82,6 +83,17 @@ header{
 .link-phone h3{
 	font-size: 16px;
 }
+/*..........clicked-menu*/
+.clicked-menu{
+	background-color: violet;
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+/*..........clicked-menu*/
+
 /*..........header*/
 
 /*..........slider*/

@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="header-top mid">
-            <div class="menu">
+            <div class="menu" id="menu-icon">
                 <img src="images/menu-open.svg" alt="" />
             </div>
             <div class="logo">
@@ -48,6 +48,11 @@
                     <img src="images/menu-phone-icon.svg" alt="" /><span>0208 947 4722</span>
                 </div>
             </div>
+        </div>
+        <div class="clicked-menu" id="clicked-menu">
+            <h1>hi</h1>
+            <i class="fas fa-backspace" id="delete-icon"></i>
+
         </div>
     </header>
     <main>
@@ -241,6 +246,26 @@
         </div>
     </div>
     </footer>
+    const logInButton = document.getElementById('login');
+        logInButton.addEventListener('click', function(){
+            const loginArea = document.getElementById('login-area');
+            loginArea.style.display = 'none';
+            const transactionArea = document.getElementById('transaction-area');
+            transactionArea.style.display = 'block';delete-icon
+        })
+    <script>
+        const menuIconBotton = document.getElementById('menu-icon');
+        menuIconBotton.addEventListener('click',function(){
+            const hidenMenu = document.getElementById('clicked-menu');
+            hidenMenu.style.display = 'block';
+        })
+        const deleteIconButton = document.getElementById('delete-icon');
+        deleteIconButton.addEventListener('click',function(){
+            const hidenMenu = document.getElementById('clicked-menu');
+            hidenMenu.style.display = 'none';
+        })
+
+    </script>
 </body>
 
 </html>
